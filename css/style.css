@@ -25,7 +25,10 @@ img {
 }
   
 .animals,
-.ingredient {
+.ingredient,
+.image,
+.counter__num,
+.unknower {
     margin-bottom: 50px;
 }
   
@@ -35,3 +38,14 @@ img {
     list-style: none;
 }
   
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+  
+#validation-input.valid {
+    border-color: #4caf50;
+}
+  
+#validation-input.invalid {
+    border-color: #f44336;
+}

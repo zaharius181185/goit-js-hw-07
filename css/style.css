@@ -28,7 +28,9 @@ img {
 .ingredient,
 .image,
 .counter__num,
-.unknower {
+.unknower,
+.focusInput,
+.changeFontSize {
     margin-bottom: 50px;
 }
   
